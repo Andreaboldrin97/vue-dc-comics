@@ -21,8 +21,9 @@ export default {
 
 <style lang="scss">
 @import "~/node_modules/bootstrap/scss/bootstrap.scss";
+@import "./styles/variables.scss";
 @import "./styles/general.scss";
-@import "./styles/general.scss";
+
 
 
 </style>
