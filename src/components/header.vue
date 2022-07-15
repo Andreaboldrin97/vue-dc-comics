@@ -81,7 +81,6 @@ export default {
 @import "../styles/variables.scss";
 header{
     height: 100px;
-    border: 1px solid red;
     background-color: white;
 }
 .logoBreand{
