@@ -1,13 +1,13 @@
 <template>
   <header class="container-fluid">
-      <div class="d-flex m-3 justify-content-between">
+      <div class="d-flex p-3 justify-content-between">
           <div >
               <img class="logoBreand" src="../assets/img/dc-logo.png" alt="Main logo DC">
           </div>
           <nav>
             <ul class="d-flex justify-content-around">
-                <li class="m-2" v-for="(link , index) in navLink" :key="index" :class="{active : link.active}">
-                    <a class="fw-bolder" :href="link.href" >{{ link.text }}</a>
+                <li class="m-2" v-for="(link , index) in navLink" :key="index" >
+                    <a :class="{active : link.active}" class="fw-bolder" :href="link.href" >{{ link.text }}</a>
                 </li>
             </ul>
           </nav>
@@ -91,8 +91,8 @@ header{
 nav{
     li{
         list-style: none;
-        padding: 23px 0;
         a{
+             padding: 50px 0;
             text-decoration: none;
             color: $colorTextNav;
         }

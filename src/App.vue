@@ -2,6 +2,7 @@
   <div id="app">
     <headerMain/>
     <mainContent/>
+    <footerMain/>
   </div>
 </template>
 
