@@ -1,39 +1,40 @@
 <template>
   <footer class="">
-     <div class="row px-5 footer-top">
-        <div class="col-2 pt-3">
-          <h5 class="text-white">DC COMICS</h5>
-          <ul class="p-0">
-            <li v-for="(link , index) in comicsLink" :key="index">
-                  <a class="text-muted" :href="link.href">{{ link.text }}</a>
-            </li>
-          </ul>
-           <h5 class="text-white">SHOP</h5>
-          <ul class="p-0">
-              <li v-for="(link , index) in shopLink" :key="index">
-                  <a class="text-muted" :href="link.href">{{ link.text }}</a>
-            </li>
-          </ul>
-      </div>
-      <div class="col-2 pt-3">
-           <h5 class="text-white">DC</h5>
-          <ul class="p-0">
-            <li v-for="(link , index) in dcLink" :key="index">
-                <a class="text-muted" :href="link.href">{{ link.text }}</a>
-            </li>
-          </ul>
-      </div>
-      <div class="col-2 pt-3">
-           <h5 class="text-white">SITES</h5>
-          <ul class="p-0">
-               <li v-for="(link , index) in sitesLink" :key="index">
-                  <a class="text-muted" :href="link.href">{{ link.text }}</a>
-            </li>
-          </ul>
-      </div>
 
-      <div class="col-6 logo-bg-breand">
-      </div>
+     <div class="d-flex px-5 footer-top">
+        <div class="col-2 pt-3">
+            <h5 class="text-white">DC COMICS</h5>
+            <ul class="p-0">
+                <li v-for="(link , index) in comicsLink" :key="index">
+                    <a class="text-muted" :href="link.href">{{ link.text }}</a>
+                </li>
+            </ul>
+            <h5 class="text-white">SHOP</h5>
+            <ul class="p-0">
+                 <li v-for="(link , index) in shopLink" :key="index">
+                    <a class="text-muted" :href="link.href">{{ link.text }}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2 pt-3">
+            <h5 class="text-white">DC</h5>
+            <ul class="p-0">
+                <li v-for="(link , index) in dcLink" :key="index">
+                    <a class="text-muted" :href="link.href">{{ link.text }}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2 pt-3">
+            <h5 class="text-white">SITES</h5>
+            <ul class="p-0">
+                <li v-for="(link , index) in sitesLink" :key="index">
+                    <a class="text-muted" :href="link.href">{{ link.text }}</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-6 logo-bg-breand p-0">
+        </div>
 
      </div>
      <div class="footer-bottom p-5 d-flex justify-content-between align-items-center">
