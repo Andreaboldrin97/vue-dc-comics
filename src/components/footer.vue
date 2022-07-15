@@ -1,7 +1,7 @@
 <template>
   <footer class="">
-     <div class="row pt-3 px-3 footer-top">
-        <div class="col-2">
+     <div class="row px-5 footer-top">
+        <div class="col-2 pt-3">
           <h5 class="text-white">DC COMICS</h5>
           <ul class="p-0">
             <li v-for="(link , index) in comicsLink" :key="index">
@@ -15,7 +15,7 @@
             </li>
           </ul>
       </div>
-      <div class="col-2">
+      <div class="col-2 pt-3">
            <h5 class="text-white">DC</h5>
           <ul class="p-0">
             <li v-for="(link , index) in dcLink" :key="index">
@@ -23,7 +23,7 @@
             </li>
           </ul>
       </div>
-      <div class="col-2">
+      <div class="col-2 pt-3">
            <h5 class="text-white">SITES</h5>
           <ul class="p-0">
                <li v-for="(link , index) in sitesLink" :key="index">
@@ -31,10 +31,12 @@
             </li>
           </ul>
       </div>
+
       <div class="col-6 logo-bg-breand">
       </div>
+
      </div>
-     <div class="footer-bottom p-4 d-flex justify-content-between align-items-center">
+     <div class="footer-bottom p-5 d-flex justify-content-between align-items-center">
          <div class="follow">
              <a class="text-white button-footer p-3" href="#">SING-UP NOW!</a>
          </div>
