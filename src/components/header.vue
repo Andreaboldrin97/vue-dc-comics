@@ -21,27 +21,27 @@ export default {
     return {
       navLink : [
             {
-                text : 'characters' ,
+                text : 'CHARACTERS' ,
                 href : '#',
                 active : false
             },
             {
-                text : 'comics' ,
+                text : 'COMICS' ,
                 href : '#',
                 active : true
             },
             {
-                text : 'movies' ,
+                text : 'MOVIES' ,
                 href : '#',
                 active : false
             },
             {
-                text : 'tv' ,
+                text : 'TV' ,
                 href : '#',
                 active : false
             },
             {
-                text : 'games' ,
+                text : 'GAMES' ,
                 href : '#',
                 active : false
             },
