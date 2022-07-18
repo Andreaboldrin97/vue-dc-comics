@@ -1,5 +1,5 @@
 <template>
-    <div class="comic-container col-2">
+    <div class="comic-container col-6 col-md-3 col-lg-2">
         <img :src="thumb" :alt="series">
         <h6 class="pt-2">{{ series }}</h6>
     </div>
