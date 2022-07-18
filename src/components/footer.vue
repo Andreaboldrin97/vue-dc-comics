@@ -2,7 +2,7 @@
   <footer class="">
 
      <div class="d-flex px-5 footer-top">
-        <div class="col-2 pt-3">
+        <div class="col-2 py-5">
             <h5 class="text-white">DC COMICS</h5>
             <ul class="p-0">
                 <li v-for="(link , index) in comicsLink" :key="index">
@@ -16,7 +16,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-2 pt-3">
+        <div class="col-2 py-5">
             <h5 class="text-white">DC</h5>
             <ul class="p-0">
                 <li v-for="(link , index) in dcLink" :key="index">
@@ -24,7 +24,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-2 pt-3">
+        <div class="col-2 py-5">
             <h5 class="text-white">SITES</h5>
             <ul class="p-0">
                 <li v-for="(link , index) in sitesLink" :key="index">
