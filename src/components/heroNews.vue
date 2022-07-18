@@ -1,5 +1,5 @@
 <template>
-    <div class="col-6 ms-5 position-relative">
+    <div class="col-6 ms-5 mt-3 position-relative">
         <a :href="link">
             <img :src="imgUrl" :alt="title">
         </a>
