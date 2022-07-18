@@ -24,9 +24,11 @@
 <script>
 import comicCard from './comicCard.vue'
 
+
 export default {
 components: {
 comicCard,
+
   },
   data : function(){
       return{

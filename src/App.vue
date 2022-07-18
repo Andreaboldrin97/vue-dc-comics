@@ -3,6 +3,7 @@
     <headerMain/>
     <mainContent/>
     <shopperContent/>
+    <mainNews/>
     <footerMain/>
   </div>
 </template>
@@ -12,6 +13,7 @@ import headerMain from './components/header.vue'
 import mainContent from './components/main.vue'
 import shopperContent from './components/shopper.vue'
 import footerMain from './components/footer.vue'
+import mainNews from './/components/mainNews.vue'
 
 export default {
   name: 'App',
@@ -20,6 +22,7 @@ export default {
     mainContent,
     shopperContent,
     footerMain,
+    mainNews
   }
 }
 </script>
