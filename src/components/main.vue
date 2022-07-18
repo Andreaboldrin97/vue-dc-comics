@@ -8,6 +8,9 @@
                 :series="comic.series"
                 :type="comic.type" />
         </div>
+        <div class="text-white text-center  mt-3">
+            <span class="btn-load-more px-5 py-2">LOAD MORE</span>
+        </div>
     </div>
   </main>
 </template>
@@ -101,5 +104,9 @@ comicsShop,
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/variables.scss";
+.btn-load-more{
+    background: $colorBreand;
+}
 
 </style>

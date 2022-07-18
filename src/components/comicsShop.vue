@@ -1,7 +1,7 @@
 <template>
     <div class="comic-container col-2">
         <img :src="thumb" :alt="series">
-        <h6>{{ series }}</h6>
+        <h6 class="pt-2">{{ series }}</h6>
     </div>
 </template>
 
