@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="news-container">
       <div class="px-5 py-5">
           <h1>THE NEWS</h1>
-          <div class="container-fluid mt-5">
+          <div class="container mt-5">
               <div class="row">
                    <heroNews v-for="(news, index) in heroNews" :key="index"
                     :title="news.title"
@@ -74,6 +74,7 @@ cardNews,
 
 <style lang="scss" scoped>
 @import "../styles/variables.scss";
+
 
 h1{
     color: $colorBreand ;

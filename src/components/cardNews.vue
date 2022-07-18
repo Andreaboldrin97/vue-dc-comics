@@ -1,5 +1,5 @@
 <template>
-    <div class="col-4 bg-light ms-5 mt-3" style="width: 18rem;">
+    <div class="col-4 bg-light mt-3">
         <div>
             <img :src="imgUrl" class="card-img-top" :alt="title">
         </div>

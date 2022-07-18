@@ -1,7 +1,7 @@
 <template>
-    <div class="col-6 ms-5 mt-3 position-relative">
+    <div class="col-8 mt-3 position-relative container-hero">
         <a :href="link">
-            <img :src="imgUrl" :alt="title">
+            <img class="img-fluid" :src="imgUrl" :alt="title">
         </a>
         <div class="position-absolute bottom-0 start-0 ps-5 pb-3 fs-5 fw-bold text-white">{{ title }}</div>
     </div>
@@ -18,6 +18,10 @@ export default {
 
 </script>
 
-<style lang"scss" scoped>
+<style lang="scss" scoped>
+img{
+    width: 100%;
+}
+
 
 </style>
