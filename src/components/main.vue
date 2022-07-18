@@ -8,7 +8,7 @@
         </div>
         <div class="text-white px-5 py-5 container-fluid">
             <div class="px-5 row" >
-                <comicsShop v-for="(comic, index) in comicsShopList" :key="index"
+                <comicsCard v-for="(comic, index) in comicsShopList" :key="index"
                     :thumb="comic.thumb"
                     :price="comic.price"
                     :series="comic.series"
@@ -22,11 +22,11 @@
 </template>
 
 <script>
-import comicsShop from '../components/comicsShop.vue'
+import comicsCard from './comicsCard.vue'
 
 export default {
 components: {
-comicsShop,
+comicsCard,
   },
   data : function(){
       return{
