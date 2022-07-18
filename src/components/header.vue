@@ -1,16 +1,16 @@
 <template>
   <header class="container-fluid">
       <div class="d-flex py-3 px-5 justify-content-between">
-          <div>
-              <img class="logoBreand" src="../assets/img/dc-logo.png" alt="Main logo DC">
-          </div>
-          <nav>
+        <div>
+            <img class="logoBreand" src="../assets/img/dc-logo.png" alt="Main logo DC">
+        </div>
+        <nav>
             <ul class="d-flex justify-content-around">
                 <li class="m-2" v-for="(link , index) in navLinks" :key="index" >
                     <a :class="{active : link.active}" class="fw-bolder" :href="link.href" >{{ link.text }}</a>
                 </li>
             </ul>
-          </nav>
+        </nav>
       </div>
   </header>
 </template>
@@ -46,27 +46,27 @@ export default {
                 active : false
             },
             {
-                text : 'collectibles' ,
+                text : 'COLLECTIBLES' ,
                 href : '#',
                 active : false
             },
             {
-                text : 'videos' ,
+                text : 'VIDEOS' ,
                 href : '#',
                 active : false
             },
             {
-                text : 'fans' ,
+                text : 'FANS' ,
                 href : '#',
                 active : false
             },
             {
-                text : 'news' ,
+                text : 'NEWS' ,
                 href : '#',
                 active : false
             },
             {
-                text : 'shop' ,
+                text : 'SHOP' ,
                 href : '#',
                 active : false
             },
@@ -92,7 +92,7 @@ nav{
     li{
         list-style: none;
         a{
-             padding: 50px 0;
+            padding: 50px 0;
             text-decoration: none;
             color: $colorTextNav;
         }
