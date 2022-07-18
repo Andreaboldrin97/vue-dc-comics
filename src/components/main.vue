@@ -1,18 +1,21 @@
 <template>
-  <main class="bg-dark">
-    <div class="text-white px-5 py-5 container-fluid">
-        <div class="px-5 row" >
-            <comicsShop v-for="(comic, index) in comicsShopList" :key="index"
-                :thumb="comic.thumb"
-                :price="comic.price"
-                :series="comic.series"
-                :type="comic.type" />
+    <main class="bg-dark">
+        <div class="hero_series">
+            <img  src="../assets/img/jumbotron.jpg" alt="">
         </div>
-        <div class="text-white text-center  mt-3">
-            <span class="btn-load-more px-5 py-2">LOAD MORE</span>
+        <div class="text-white px-5 py-5 container-fluid">
+            <div class="px-5 row" >
+                <comicsShop v-for="(comic, index) in comicsShopList" :key="index"
+                    :thumb="comic.thumb"
+                    :price="comic.price"
+                    :series="comic.series"
+                    :type="comic.type" />
+            </div>
+            <div class="text-white text-center  mt-3">
+                <span class="btn-load-more px-5 py-2">LOAD MORE</span>
+            </div>
         </div>
-    </div>
-  </main>
+    </main>
 </template>
 
 <script>
@@ -105,6 +108,14 @@ comicsShop,
 
 <style lang="scss" scoped>
 @import "../styles/variables.scss";
+.hero_series{
+    img{
+        object-fit: cover;
+        object-position: top;
+        height: 425px;
+        width: 100%;
+    }
+}
 .btn-load-more{
     background: $colorBreand;
 }
