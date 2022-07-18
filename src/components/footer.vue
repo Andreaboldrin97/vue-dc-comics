@@ -43,11 +43,9 @@
          </div>
          <div>
              <a class="me-3" href="#">FOLLOW US</a>
-             <a class="me-3" href="#"><img src="../assets/img/footer-facebook.png" alt=""></a>
-             <a class="me-3" href="#"><img src="../assets/img/footer-twitter.png" alt=""></a>
-             <a class="me-3" href="#"><img src="../assets/img/footer-youtube.png" alt=""></a>
-             <a class="me-3" href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a>
-             <a href="#"><img src="../assets/img/footer-periscope.png" alt=""></a>
+             <a class="me-3" v-for="(social, index) in socials" :key="index" href="#">
+                <img :src="require(`../assets/img/${social.icon}`)" alt="">
+            </a>
          </div>
      </div>
   </footer>
@@ -175,6 +173,32 @@ export default {
                       href: "#",
                 },
             ],
+             socials: [
+                {
+                    name: "Facebook",
+                    url: "#",
+                    icon: "footer-facebook.png"
+                },
+                {
+                    name: "Twitter",
+                    url: "#",
+                    icon: "footer-twitter.png"
+                },
+                {
+                    name: "You Tube",
+                    url: "#",
+                    icon: "footer-youtube.png"
+                },
+                {
+                    name: "Pinterest",
+                    url: "#",
+                    icon: "footer-pinterest.png"
+                },
+                {
+                    name: "Periscope",
+                    url: "#",
+                    icon: "footer-periscope.png"
+                }]
       }
     }
 }
