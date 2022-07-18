@@ -174,7 +174,7 @@ export default {
                       text: "DC Power Visa",
                       href: "#",
                 },
-            ]
+            ],
       }
     }
 }

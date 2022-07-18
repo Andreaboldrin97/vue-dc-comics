@@ -2,6 +2,7 @@
   <div id="app">
     <headerMain/>
     <mainContent/>
+    <shopperContent/>
     <footerMain/>
   </div>
 </template>
@@ -9,6 +10,7 @@
 <script>
 import headerMain from './components/header.vue'
 import mainContent from './components/main.vue'
+import shopperContent from './components/shopper.vue'
 import footerMain from './components/footer.vue'
 
 export default {
@@ -16,6 +18,7 @@ export default {
   components: {
     headerMain ,
     mainContent,
+    shopperContent,
     footerMain,
   }
 }
