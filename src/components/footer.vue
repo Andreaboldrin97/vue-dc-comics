@@ -1,7 +1,6 @@
 <template>
-  <footer class="">
-
-     <div class="d-flex px-5 footer-top">
+  <footer class="container-fluid">
+     <div class="row px-5 footer-top">
         <div class="col-2 py-5">
             <h5 class="text-white">DC COMICS</h5>
             <ul class="p-0">
